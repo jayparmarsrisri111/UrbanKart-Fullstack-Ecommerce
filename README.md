@@ -1,71 +1,40 @@
-# 🛍️ UrbanKart - 100% Full-Stack JavaScript E-Commerce Platform (India Edition ₹)
+# UrbanKart E-Commerce Platform
 
-A production-ready, fully responsive, high-converting E-Commerce Web Application built **100% in JavaScript (Node.js + Express + React)** with **Indian Rupee (₹)** currency, dynamic cart checkout, live order tracking, and **completely separated Admin Management Panel & Customer Storefront**.
+A full-stack JavaScript web application built with Node.js, Express, and React. It features Indian Rupee (INR) currency display, separate customer and administrative portals, live order management, and promotional discount capabilities.
 
----
+## Architecture & Features
 
-## 🚀 Live Working Links
+- **Storefront**: Product catalog browsing, search, cart management, Indian postal code delivery estimates, and checkout options including simulated UPI and cards.
+- **Admin Portal**: Independent dark-themed dashboard located at `/admin` for tracking orders, updating shipment statuses, managing product stock, and reviewing inquiries.
+- **Indian Rupee (INR) Display**: All pricing is presented in Indian Rupees across products, carts, invoices, and analytics.
+- **Invoice Generation**: Printable tax invoices with itemized tax and shipment data.
+- **Persistent Data Store**: Atomic JSON file-backed data storage located in `backend/data/ecommerce_db.json`.
 
-| Portal | URL | Description |
-|---|---|---|
-| 🛒 **Customer Storefront** | [http://localhost:5173](http://localhost:5173) | Main shopping website (Catalog, Cart Drawer, Express Checkout, Live Tracking, WhatsApp Concierge) |
-| 🔐 **Independent Admin Console** | [http://localhost:5173/admin](http://localhost:5173/admin) | Completely separate Admin Dashboard with dedicated sidebar, KPI revenue cards, dynamic order status updater, inventory manager & messages |
-| 🔑 **Admin Standalone Login** | [http://localhost:5173/admin/login](http://localhost:5173/admin/login) | Dedicated Admin Authentication screen with 1-click Demo auto-fill |
-| 📦 **Live Order Tracking Demo** | [http://localhost:5173/track-order?order=UK-261113-1001](http://localhost:5173/track-order?order=UK-261113-1001) | 4-step live status timeline (Order Placed ➔ Processing ➔ Shipped ➔ Delivered) |
-| ⚡ **Node.js Express REST API** | [http://localhost:8000](http://localhost:8000) | Pure JavaScript backend REST API |
+## Credentials (Demo)
 
-### 🔑 Admin Credentials:
-- **Email**: `admin@urbankart.com`
-- **Password**: `Admin@123`
-*(Or click the **"Auto-fill Demo Credentials"** button on the admin login page)*
+- **Admin Email**: `admin@urbankart.com`
+- **Admin Password**: `Admin@123`
 
----
+## Running Locally
 
-## 🌟 What Makes This Project Special
-
-### 1. ⚡ 100% Full-Stack JavaScript
-- **Backend**: Pure Node.js + Express.js (`backend/server.js`, `backend/db.js`, `backend/routes/`).
-- **Frontend**: Modern React 18, Vite, TypeScript/JavaScript, Tailwind CSS, Lucide Icons, Canvas Confetti.
-- No Python required anymore! Everything is unified in the JavaScript ecosystem.
-
-### 2. 🇮🇳 Indian Rupee (₹) Everywhere
-- Replaced all `$` symbols with the official Indian Rupee symbol `₹`.
-- Localized Indian number formatting (`₹1,499`, `₹11,995`, `₹1,14,900`).
-- Indian payment options:
-  - 📱 Instant UPI & QR Code (Google Pay, PhonePe, Paytm, BHIM)
-  - 💵 Cash on Delivery (COD)
-  - 💳 RuPay / Visa / Mastercard Debit & Credit Cards
-  - 🏦 Net Banking (SBI, HDFC, ICICI, Axis Bank)
-- Free express delivery across India on orders above ₹999.
-
-### 3. 🛡️ Completely Separated Admin Panel & Main Website
-- **Main Customer Website** (`/`):
-  - Dedicated Storefront Header with search, categories, Wishlist, Cart Drawer, customer navigation.
-  - Storefront Footer with trust badges, policies, and newsletter.
-  - Floating WhatsApp concierge for direct support.
-- **Admin Management Portal** (`/admin`):
-  - **Completely separate layout**: Dedicated dark-theme Admin Sidebar, Topbar, and Control Canvas.
-  - NO customer storefront header or footer in the admin area.
-  - Separate authentication protection via JWT tokens.
-
-### 4. 🔄 Fully Dynamic & Persistent
-- **Live Stock Sync**: When an order is placed on the customer website, product stock units are immediately decremented in the database.
-- **Instant Admin Alerts**: Placed orders appear in the Admin Orders table in real time with the unique Order Number (`UK-261113-XXXX`).
-- **1-Click Status Updater**: When the Admin changes an order's status from `Processing` to `Shipped` or `Delivered`, the customer's Live Order Tracking page reflects the new status instantly.
-- **Dynamic Inventory Management**: Add new products with image, title, price, and stock from the admin modal — they appear immediately on the customer catalog!
-
----
-
-## 🛠️ How to Start Both Servers Manually
-
-### 1. Start Backend (Node.js Express):
-```powershell
-node backend\server.js
+### Backend
+```bash
+cd backend
+npm install
+node server.js
 ```
-*(Runs on `http://localhost:8000`)*
+Runs on `http://localhost:8000`.
 
-### 2. Start Frontend (React Vite):
-```powershell
-npm run dev --prefix frontend
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
 ```
-*(Runs on `http://localhost:5173`)*
+Runs on `http://localhost:5173`.
+
+## Active Discount Codes
+- `FIRST20` - 20% discount on orders
+- `SAVE10` - 10% discount on orders over 999 INR
+- `DIWALI500` - Flat 500 INR discount
+- `MEGA1000` - Flat 1000 INR discount
