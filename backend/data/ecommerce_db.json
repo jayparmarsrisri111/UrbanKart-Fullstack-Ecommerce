@@ -1,0 +1,558 @@
+{
+  "admin": {
+    "id": 1,
+    "username": "admin",
+    "email": "admin@urbankart.com",
+    "hashed_password": "$2a$10$M7hjA7AFkrslUh8Pw6N2iOlWb7Y07oIuh/KdW2VZ4OLqBLUCJZTmC",
+    "role": "admin"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+      "slug": "sony-wh-1000xm5-wireless-headphones",
+      "description": "Industry-leading noise canceling with two processors and 8 microphones. Magnificent high-resolution sound quality engineered with the Integrated Processor V1. Up to 30 hours battery life with quick charging.",
+      "price": 29990,
+      "original_price": 34990,
+      "category": "Electronics",
+      "brand": "Sony",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.9,
+      "reviews_count": 142,
+      "stock": 35,
+      "is_featured": true,
+      "is_trending": true,
+      "features": "Auto NC Optimizer for crystal clear audio\nMagnificent hands-free calling with 4 beamforming mics\n30-hour battery life with 3-minute quick charge\nUltra-comfortable lightweight synthetic leather",
+      "specs": {
+        "Driver Unit": "30mm, dome type",
+        "Frequency Response": "4 Hz - 40,000 Hz",
+        "Battery Life": "Up to 30 hours (NC ON)",
+        "Charging Time": "Approx. 3.5 hrs (USB-PD)",
+        "Bluetooth Version": "5.2 (LDAC, AAC, SBC)",
+        "Weight": "Approx. 250g"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Kavita Rao",
+          "rating": 5,
+          "date": "2026-11-10",
+          "comment": "The noise cancellation is literally miraculous on flights and Mumbai local trains!",
+          "verified": true
+        },
+        {
+          "id": 2,
+          "author": "Aditya Verma",
+          "rating": 5,
+          "date": "2026-11-05",
+          "comment": "Comfortable for 8+ hour work calls. Build quality is top tier.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.544Z"
+    },
+    {
+      "id": 2,
+      "name": "Apple MacBook Air M3 - 15-inch Liquid Retina Display",
+      "slug": "apple-macbook-air-m3-15-inch",
+      "description": "Supercharged by the next-generation M3 chip. Strikingly thin aluminum enclosure, breathtaking Liquid Retina display, MagSafe charging, and up to 18 hours of battery life.",
+      "price": 114900,
+      "original_price": 134900,
+      "category": "Electronics",
+      "brand": "Apple",
+      "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.9,
+      "reviews_count": 210,
+      "stock": 20,
+      "is_featured": true,
+      "is_trending": true,
+      "features": "Apple M3 8-core CPU with 10-core GPU\n15.3-inch Liquid Retina display with 500 nits brightness\nMagSafe 3 charging & 2x Thunderbolt ports\nSilent, fanless whisper-quiet design",
+      "specs": {
+        "Processor": "Apple M3 8-Core CPU",
+        "Memory": "16GB Unified Memory",
+        "Storage": "512GB PCIe SSD",
+        "Display": "15.3-inch 2880x1864 Liquid Retina",
+        "Battery": "Up to 18 hours",
+        "Weight": "1.51 kg"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Devansh Parekh",
+          "rating": 5,
+          "date": "2026-11-08",
+          "comment": "Performance is stellar for coding and 4K video editing without any fan noise.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.569Z"
+    },
+    {
+      "id": 3,
+      "name": "Apple Watch Ultra 2 GPS + Cellular Titanium Case",
+      "slug": "apple-watch-ultra-2-gps-cellular",
+      "description": "The ultimate sports and adventure smartwatch. 49mm aerospace-grade titanium case, precision dual-frequency GPS, 3000-nit Retina display, and up to 36 hours of battery life.",
+      "price": 79900,
+      "original_price": 89900,
+      "category": "Electronics",
+      "brand": "Apple",
+      "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.8,
+      "reviews_count": 98,
+      "stock": 18,
+      "is_featured": true,
+      "is_trending": false,
+      "features": "49mm aerospace titanium case with sapphire front crystal\nBrightest 3000 nits Always-On Retina display\n100m water resistant with depth gauge\nPrecision dual-frequency GPS (L1 and L5)",
+      "specs": {
+        "Case Material": "Aerospace Titanium",
+        "Display": "Always-On OLED (3000 nits)",
+        "Battery": "Up to 36 hours (72h low power)",
+        "Water Resistance": "100m, EN13319 certified",
+        "Connectivity": "Cellular + GPS + Bluetooth 5.3"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Major Harshvardhan",
+          "rating": 5,
+          "date": "2026-10-28",
+          "comment": "Survives heavy trekking, diving and rugged terrain without a single scratch.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.569Z"
+    },
+    {
+      "id": 4,
+      "name": "Nike Air Max 270 React Premium Sneakers",
+      "slug": "nike-air-max-270-react-sneakers",
+      "description": "The Nike Air Max 270 React blends Nike's biggest heel Air unit with lightweight, durable Nike React foam for smooth, all-day cushioning. Modern aesthetic with bold contrast styling.",
+      "price": 11995,
+      "original_price": 13995,
+      "category": "Footwear",
+      "brand": "Nike",
+      "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.7,
+      "reviews_count": 86,
+      "stock": 42,
+      "is_featured": true,
+      "is_trending": true,
+      "features": "Max Air 270 unit delivers unrivaled comfort\nNike React technology creates an extremely smooth ride\nLightweight layered synthetic materials\nFull heel-to-toe rubber coverage for traction",
+      "specs": {
+        "Upper Material": "Mesh & Synthetic Overlays",
+        "Sole": "React Foam with Max Air heel",
+        "Closure": "Lace-Up",
+        "Ideal For": "Running, Gym, Streetwear"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Rahul Goswami",
+          "rating": 5,
+          "date": "2026-11-02",
+          "comment": "Best daily sneakers! Feather light and looks incredible with jeans or joggers.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.569Z"
+    },
+    {
+      "id": 5,
+      "name": "Classic Minimalist Chronograph Leather Watch",
+      "slug": "classic-minimalist-chronograph-watch",
+      "description": "Crafted with surgical-grade 316L stainless steel and genuine Italian top-grain leather strap. Features a scratch-resistant sapphire crystal glass and Japanese quartz movement.",
+      "price": 4499,
+      "original_price": 6999,
+      "category": "Accessories",
+      "brand": "Nordic Time",
+      "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.6,
+      "reviews_count": 54,
+      "stock": 25,
+      "is_featured": false,
+      "is_trending": true,
+      "features": "Sapphire crystal scratch-proof glass\nGenuine Italian leather strap\n50m Water Resistance (5 ATM)\nSubdial stopwatch & date window",
+      "specs": {
+        "Dial Diameter": "42mm",
+        "Case Thickness": "9.5mm",
+        "Strap Width": "20mm genuine leather",
+        "Movement": "Japanese Miyota Quartz",
+        "Water Resistance": "50m (5 ATM)"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Tanmay Dave",
+          "rating": 4,
+          "date": "2026-10-24",
+          "comment": "Very elegant watch for formal office meetings. Looks like a 20k watch.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.569Z"
+    },
+    {
+      "id": 6,
+      "name": "Urban Explorer Waterproof Commuter Backpack",
+      "slug": "urban-explorer-waterproof-backpack",
+      "description": "Engineered for daily urban commuters and tech travelers. Features a padded 16-inch laptop compartment, hidden anti-theft pockets, USB pass-through charging port, and water-repellent Cordura fabric.",
+      "price": 2499,
+      "original_price": 3999,
+      "category": "Accessories",
+      "brand": "AeroPack",
+      "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.8,
+      "reviews_count": 112,
+      "stock": 60,
+      "is_featured": true,
+      "is_trending": false,
+      "features": "Weatherproof 900D ballistic nylon\nDedicated padded 16-inch laptop sleeve\nErgonomic breathable mesh shoulder straps\nLuggage strap for effortless roller bag attachment",
+      "specs": {
+        "Capacity": "28 Liters",
+        "Dimensions": "46 x 32 x 18 cm",
+        "Weight": "850 grams",
+        "Laptop Fit": "Up to 16.2 inch laptops",
+        "Warranty": "2 Years International"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Manish Shah",
+          "rating": 5,
+          "date": "2026-11-12",
+          "comment": "Saved my laptop during heavy monsoon downpours! Truly waterproof.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.569Z"
+    },
+    {
+      "id": 7,
+      "name": "Vintage Denim Sherpa Trucker Jacket",
+      "slug": "vintage-denim-sherpa-trucker-jacket",
+      "description": "Timeless Americana style featuring heavy-duty washed cotton denim lined with plush warm sherpa fleece. Perfect outer layer for chilly evenings and crisp urban outings.",
+      "price": 3799,
+      "original_price": 5499,
+      "category": "Fashion",
+      "brand": "UrbanHeritage",
+      "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.7,
+      "reviews_count": 73,
+      "stock": 28,
+      "is_featured": false,
+      "is_trending": true,
+      "features": "100% heavyweight cotton denim\nPlush insulating sherpa lining\nDual snap flap chest pockets\nAdjustable waist tabs for a custom fit",
+      "specs": {
+        "Fabric": "100% Cotton 14oz Denim",
+        "Lining": "Faux Sherpa Fleece",
+        "Fit": "Regular Classic Trucker Fit",
+        "Wash Care": "Machine Wash Cold"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Samarth Gill",
+          "rating": 5,
+          "date": "2026-11-01",
+          "comment": "Extremely warm and the vintage wash is authentic. Fits true to size.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.569Z"
+    },
+    {
+      "id": 8,
+      "name": "Smart Ambient Nordic Floor Lamp RGB & Warm White",
+      "slug": "smart-ambient-nordic-floor-lamp",
+      "description": "Sleek minimalist corner lighting designed to enhance any room ambiance. 16 million colors, warm to cool white dimming, music synchronization, and smartphone/Alexa/Google voice control.",
+      "price": 3299,
+      "original_price": 4999,
+      "category": "Home & Living",
+      "brand": "Lumina",
+      "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.6,
+      "reviews_count": 67,
+      "stock": 30,
+      "is_featured": true,
+      "is_trending": false,
+      "features": "16M RGB colors + dynamic light effects\nAlexa & Google Home voice compatibility\nSound-activated dynamic music mode\nWeighted anti-tip aluminum base",
+      "specs": {
+        "Height": "140 cm",
+        "Wattage": "20W LED (Energy Saving)",
+        "App Control": "SmartLife / Tuya via Wi-Fi",
+        "Voltage": "100-240V AC 50/60Hz"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Priyanka Sen",
+          "rating": 5,
+          "date": "2026-10-18",
+          "comment": "Transformed my living room! Syncs with music perfectly when friends come over.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.569Z"
+    },
+    {
+      "id": 9,
+      "name": "Adidas Ultraboost Light Running Shoes",
+      "slug": "adidas-ultraboost-light-running-shoes",
+      "description": "Experience epic energy return with the lightest Ultraboost ever made. Features adidas Light BOOST midsole foam and supportive PRIMEKNIT+ textile upper for effortless long-distance runs.",
+      "price": 14999,
+      "original_price": 17999,
+      "category": "Footwear",
+      "brand": "Adidas",
+      "image_url": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.9,
+      "reviews_count": 130,
+      "stock": 38,
+      "is_featured": false,
+      "is_trending": true,
+      "features": "Light BOOST midsole generates unmatched energy\nContinental Better Rubber outsole provides superior grip\nPRIMEKNIT+ upper hugs foot naturally\nMade in part with recycled materials",
+      "specs": {
+        "Weight": "299g (Size 9)",
+        "Midsole Drop": "10mm (heel: 30mm / forefoot: 20mm)",
+        "Upper": "Adidas PRIMEKNIT+ textile",
+        "Outsole": "Continental™ Better Rubber"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Deepak Choudhary",
+          "rating": 5,
+          "date": "2026-11-09",
+          "comment": "Completed my half marathon in these. Zero blisters and fantastic bounce.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.569Z"
+    },
+    {
+      "id": 10,
+      "name": "Premium Ceramic Pour-Over Coffee Dripper Set",
+      "slug": "premium-ceramic-coffee-dripper-set",
+      "description": "Elevate your morning coffee ritual. Handcrafted artisanal matte ceramic pour-over cone paired with a heat-resistant borosilicate glass server and bamboo lid.",
+      "price": 1899,
+      "original_price": 2499,
+      "category": "Home & Living",
+      "brand": "Kaffi Craft",
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.8,
+      "reviews_count": 48,
+      "stock": 45,
+      "is_featured": false,
+      "is_trending": false,
+      "features": "Matte textured ceramic cone ensures thermal stability\n600ml heat-resistant borosilicate glass carafe\nInternal spiral ribs for optimal water extraction rate\nDishwasher safe & eco-friendly",
+      "specs": {
+        "Server Capacity": "600ml (2-4 Cups)",
+        "Material": "High-fired Ceramic & Borosilicate Glass",
+        "Filter Size": "Compatible with V60 02 paper filters",
+        "Care": "Dishwasher & Microwave Safe"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Ananya Iyer",
+          "rating": 5,
+          "date": "2026-10-30",
+          "comment": "Brews clean, aromatic specialty coffee. Beautiful centerpiece in my kitchen.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.569Z"
+    },
+    {
+      "id": 11,
+      "name": "Fastrack Limitless FS1 Pro Smartwatch with Super AMOLED",
+      "slug": "fastrack-limitless-fs1-pro-smartwatch",
+      "description": "1.96-inch Super AMOLED curved display, SingleSync BT calling, 110+ sports modes, 200+ watch faces, and 7-day battery life.",
+      "price": 2799,
+      "original_price": 4995,
+      "category": "Electronics",
+      "brand": "Fastrack",
+      "image_url": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.5,
+      "reviews_count": 62,
+      "stock": 55,
+      "is_featured": false,
+      "is_trending": true,
+      "features": "1.96-inch Super AMOLED curved glass (410x502 px)\nCrystal clear Bluetooth calling with AI noise reduction\n110+ Sports modes with auto workout detection\nIP68 Water and dust resistance",
+      "specs": {
+        "Display": "1.96 Super AMOLED",
+        "Battery": "Up to 7 Days (300 mAh)",
+        "Sensors": "Heart Rate, SpO2, Sleep, Stress",
+        "Water Resistance": "IP68"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Chetan Parmar",
+          "rating": 4,
+          "date": "2026-11-04",
+          "comment": "Screen brightness in bright Ahmedabad sun is very impressive for this price.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.569Z"
+    },
+    {
+      "id": 12,
+      "name": "Luxury Matte Finish Aviator Polarized Sunglasses",
+      "slug": "luxury-matte-finish-aviator-sunglasses",
+      "description": "Classic teardrop aviator frame in matte black with 9-layer TAC polarized lenses offering 100% UV400 protection against glare and harmful rays.",
+      "price": 1499,
+      "original_price": 2999,
+      "category": "Accessories",
+      "brand": "UrbanVision",
+      "image_url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&auto=format&fit=crop&q=80",
+      "rating": 4.7,
+      "reviews_count": 89,
+      "stock": 40,
+      "is_featured": false,
+      "is_trending": false,
+      "features": "100% UV400 protection (UVA & UVB)\nTriacetate Cellulose (TAC) 9-layer polarized lenses\nUltra-lightweight stainless steel alloy frame\nSpring hinges with soft silicone nose pads",
+      "specs": {
+        "Frame Material": "Monel Steel Alloy",
+        "Lens Material": "TAC Polarized",
+        "Lens Width": "58 mm",
+        "Bridge Width": "14 mm",
+        "Includes": "Hard leather case & micro-fiber cloth"
+      },
+      "reviews": [
+        {
+          "id": 1,
+          "author": "Suresh Pillai",
+          "rating": 5,
+          "date": "2026-10-15",
+          "comment": "Driving during midday sun is so comfortable now. Glare is 100% cut off.",
+          "verified": true
+        }
+      ],
+      "created_at": "2026-11-14T13:42:04.569Z"
+    }
+  ],
+  "coupons": [
+    {
+      "code": "FIRST20",
+      "discount_type": "percentage",
+      "discount_value": 20,
+      "min_order": 999,
+      "max_discount": 5000,
+      "description": "Flat 20% OFF on all orders over ₹999 for first-time shoppers",
+      "active": true
+    },
+    {
+      "code": "SAVE10",
+      "discount_type": "percentage",
+      "discount_value": 10,
+      "min_order": 499,
+      "max_discount": 2000,
+      "description": "10% OFF on everyday essentials over ₹499",
+      "active": true
+    },
+    {
+      "code": "DIWALI500",
+      "discount_type": "flat",
+      "discount_value": 500,
+      "min_order": 2499,
+      "max_discount": 500,
+      "description": "Flat ₹500 discount on orders above ₹2,499",
+      "active": true
+    },
+    {
+      "code": "MEGA1000",
+      "discount_type": "flat",
+      "discount_value": 1000,
+      "min_order": 4999,
+      "max_discount": 1000,
+      "description": "Flat ₹1,000 instant discount on cart above ₹4,999",
+      "active": true
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "order_number": "UK-261113-1001",
+      "invoice_number": "INV-2026-0001",
+      "customer_name": "Aarav Patel",
+      "customer_email": "aarav.patel@example.com",
+      "customer_phone": "+91 98765 43210",
+      "shipping_address": "402, Shivalik High Street, Judges Bungalow Rd",
+      "city": "Ahmedabad",
+      "postal_code": "380015",
+      "payment_method": "UPI",
+      "payment_status": "Paid",
+      "order_status": "Delivered",
+      "subtotal": 29990,
+      "discount": 5998,
+      "shipping_fee": 0,
+      "total_amount": 23992,
+      "courier": "UrbanKart Express (BlueDart)",
+      "awb_number": "BD-8849102",
+      "notes": "Please deliver before 6 PM",
+      "created_at": "2026-11-12T13:42:04.570Z",
+      "items": [
+        {
+          "id": 1,
+          "product_id": 1,
+          "product_name": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+          "product_image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+          "price": 29990,
+          "quantity": 1,
+          "total": 29990
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "order_number": "UK-261113-1002",
+      "invoice_number": "INV-2026-0002",
+      "customer_name": "Pooja Sharma",
+      "customer_email": "pooja.sharma@example.com",
+      "customer_phone": "+91 98234 56789",
+      "shipping_address": "B-12, Green Park Society, Ring Road",
+      "city": "Surat",
+      "postal_code": "395007",
+      "payment_method": "COD",
+      "payment_status": "Pending",
+      "order_status": "Processing",
+      "subtotal": 11995,
+      "discount": 0,
+      "shipping_fee": 0,
+      "total_amount": 11995,
+      "courier": "Delhivery Surface",
+      "awb_number": "DL-9041223",
+      "notes": "",
+      "created_at": "2026-11-14T08:42:04.570Z",
+      "items": [
+        {
+          "id": 2,
+          "product_id": 4,
+          "product_name": "Nike Air Max 270 React Premium Sneakers",
+          "product_image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&auto=format&fit=crop&q=80",
+          "price": 11995,
+          "quantity": 1,
+          "total": 11995
+        }
+      ]
+    }
+  ],
+  "inquiries": [
+    {
+      "id": 1,
+      "name": "Vikram Mehta",
+      "email": "vikram@example.com",
+      "phone": "+91 97234 11223",
+      "subject": "Bulk Corporate Gifting Order (50 Units)",
+      "message": "Hi, we are looking to purchase 50 units of Sony noise-canceling headphones for corporate Diwali gifting in Ahmedabad. Can you please share wholesale pricing and GST invoice details?",
+      "status": "Unread",
+      "created_at": "2026-11-14T10:42:04.570Z"
+    }
+  ],
+  "nextIds": {
+    "product": 13,
+    "order": 3,
+    "inquiry": 2
+  }
+}
